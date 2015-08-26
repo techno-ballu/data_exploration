@@ -1,0 +1,154 @@
+.nvd3 .nv-multibar .nv-groups rect, .nvd3 .nv-multibarHorizontal .nv-groups rect, .nvd3 .nv-discretebar .nv-groups rect {
+	cursor: pointer;
+}
+
+.export-chart {
+  position: absolute;
+  top: 2px;
+  right: 33px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.progress {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+ul.ColVis_collection {
+  max-height: 280px;
+  overflow-y: scroll !important;
+  width: 270px !important;
+  left: 1002px !important;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 10px;
+}
+
+.header-buttons {
+  margin-top: 25px;
+}
+
+.d3-bubbles .node circle {
+  /*stroke: #555;*/
+  stroke-width: 2px;
+  /*opacity: .8;*/
+  cursor: move;
+}
+
+.node circle:hover {
+  stroke: #000;
+  opacity: 1;
+}
+
+circle.highlighter {
+  fill: none;
+  stroke: black;
+  stroke-width: 3px;
+  stroke-dasharray: 5;
+  stroke-opacity: 0.5;
+}
+
+.chooser-left-container{
+  width :150px;
+}
+.chooser-left-container > :first-child , .chooser-right-container > :first-child{
+  width:142px;
+}
+
+#namesCategories .shiny-options-group {
+  margin-top: 10px;
+}
+
+#namesCategories .checkbox-inline {
+  margin-left: 10px;
+}
+
+.box {
+  font: 10px sans-serif;
+}
+
+.box line,
+.box rect,
+.box circle {
+  fill: steelblue;
+  stroke: #000;
+  stroke-width: 1px;
+}
+
+.box .center {
+  stroke-dasharray: 3,3;
+}
+
+.box .outlier {
+  fill: none;
+  stroke: #000;
+}
+
+.axis {
+  font: 12px sans-serif;
+}
+ 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+ 
+.x.axis path { 
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.modal .form-group .form-group label {
+  display: none;
+}
+
+.navbar .container {
+  padding-right: 0px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: 0px;
+}
+
+.dataTables_filter input {
+	height: 20px;
+}
+
+#rowsNCols pre {
+	height: 34px;
+	margin-top: 5px;
+	overflow-y: hidden;
+	padding-top: 6px;
+	padding-left: 12px;
+}
+
+table.dataTable thead tr th {
+	padding-left: 8px;
+	padding-right: 28px;
+}
+
+.navbar-nav {
+	margin-bottom: 0px !important;
+}
+
+.nav {
+	margin-bottom: 10px;
+}
+
+.top-padding {
+	padding-top: 10px;
+}
+
+.bottom-margin {
+	margin-bottom: 10px;
+}
+
+div.dataTables_info {
+	padding-top: 5px;
+}
