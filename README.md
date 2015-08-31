@@ -1,6 +1,8 @@
 # Data Exploration prototype
 
-A powerful data exploration console in R / Shiny.
+A powerful data science console in R / Shiny.
+
+Demo @ https://bolaka.shinyapps.io/data_exploration
 
 =========================================================================================
 
