@@ -1,4 +1,4 @@
-library(shiny)
+# library(shiny)
 
 # To be called from ui.R
 nvd3ChartOutput <- function(inputId, theClass, width="100%", height="100%") {

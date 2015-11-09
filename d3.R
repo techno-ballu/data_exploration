@@ -1,5 +1,5 @@
-library(shiny)
-library(rjson)
+# library(shiny)
+# library(rjson)
 
 # To be called from ui.R
 d3ChartOutput <- function(inputId, theClass, width="100%", height="100%") {

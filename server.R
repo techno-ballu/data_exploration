@@ -155,21 +155,6 @@ shinyServer(function(input, output, session) {
         
         options(shiny.maxRequestSize=30*1024^2)
         
-        library(shiny)
-        library(googleVis)
-        library(gdata)
-        library(corrplot)
-        library(caret)
-        # library(df2json)
-        library(xlsx)
-        library(FSelector) 
-        
-        # istall latest data.table to access fread function!
-        #   devtools::install_github("Rdatatable/data.table", build_vignettes = FALSE)
-        #   library(data.table) # using the development version!
-        #   install.packages("data.table")
-        library(data.table)
-        
         values <- reactiveValues()
         
         metadata <- function(raw) {

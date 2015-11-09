@@ -1,7 +1,3 @@
-library(markdown)
-library(googleVis)
-library(shinyBS)
-library(R.oo)
 #library(shinyGridster)
 # library(shinysky)
 source("chooser.R")
