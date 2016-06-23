@@ -673,7 +673,10 @@ d3_box_bind.renderValue = function(el, thedata) {
   
   // the x-axis
   var x = d3.scale.ordinal()     
-    .domain( data.map(function(d) { console.log(d); return d[0] } ) )     
+    .domain( data.map(function(d) { 
+    	console.log(d); 
+    	return d[0] 
+    } ) )     
     .rangeRoundBands([0 , width], 0.7, 0.3);    
 
   var xAxis = d3.svg.axis()
@@ -714,13 +717,14 @@ d3_box_bind.renderValue = function(el, thedata) {
       .attr("class", "x axis")
       .attr("transform", "translate(0," + (height  + margin.top + 10) + ")")
       .call(xAxis)
-    .append("text") // text label for the x axis
-        .attr("x", (width / 2) )
-        .attr("y",  10 )
-    .attr("dy", "1.71em")
-        .style("text-anchor", "middle")
-    .style("font-size", "16px") 
-        .text(thedata.feature); 
+    .selectAll("text") // text label for the x axis
+        .attr("x", 3 ) //
+        .attr("y",  0 )
+	    .attr("dy", "1.51em")
+	    .attr("transform", "rotate(20)")
+        .style("text-anchor", "start")
+    .style("font-size", "12px") 
+        // .text(thedata.feature); 
 
   // Returns a function to compute the interquartile range.
   function iqr(k) {

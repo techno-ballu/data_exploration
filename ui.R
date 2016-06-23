@@ -46,7 +46,7 @@ shinyUI(bootstrapPage(
       tags$script(src = 'dataTables.extentions/js/dataTables.colVis.js'),
       tags$script(src = 'underscore/underscore.js')
     ))
-  ),navbarPage(title = "Ayata",
+  ),navbarPage(title = "DataScience",
                tabPanel("Load data",fluidPage(
                                         fluidRow(
                                           column(3,fileInput('file1', 'Choose csv file',accept=c('text/csv', 'text/comma-separated-values,text/plain', '.csv'))),
